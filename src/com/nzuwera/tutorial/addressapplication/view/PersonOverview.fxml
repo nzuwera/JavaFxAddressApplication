@@ -5,7 +5,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nzuwera.tutorial.addressapplication.view.PersonOverviewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nzuwera.tutorial.addressapplication.controller.PersonOverviewController">
    <children>
       <SplitPane dividerPositions="0.4116743471582181" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -58,8 +58,8 @@
                   </GridPane>
                   <Pane layoutX="78.0" layoutY="278.0">
                      <children>
-                        <ToggleButton mnemonicParsing="false" text="New..." />
-                        <ToggleButton layoutX="87.0" mnemonicParsing="false" text="Edit..." />
+                        <ToggleButton mnemonicParsing="false" onAction="#handleNewPerson" text="New..." />
+                        <ToggleButton layoutX="87.0" mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." />
                         <ToggleButton layoutX="167.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                      </children>
                   </Pane>
