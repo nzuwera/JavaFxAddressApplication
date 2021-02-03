@@ -42,18 +42,18 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <Label fx:id="firstNameLabel" layoutX="10.0" layoutY="19.0" text="First name" />
-                        <Label fx:id="cityLabel" layoutX="10.0" layoutY="19.0" text="City" GridPane.rowIndex="3" />
-                        <Label fx:id="streetLabel" layoutX="10.0" layoutY="54.0" text="Street" GridPane.rowIndex="2" />
-                        <Label layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-<!--                        <Label fx:id="lastNameColumn" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />-->
-<!--                        <Label fx:id="firstNameColumn" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" />-->
-                        <Label fx:id="lastNameLabel" layoutX="10.0" layoutY="54.0" text="Last name" GridPane.rowIndex="1" />
-                        <Label layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                        <Label fx:id="birthdayLabel" layoutX="10.0" layoutY="19.0" text="Birthday" GridPane.rowIndex="5" />
-                        <Label layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                        <Label fx:id="postalCodeLabel" layoutX="10.0" layoutY="19.0" text="Postal Code" GridPane.rowIndex="4" />
+                        <Label fx:id="cityLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label layoutX="10.0" layoutY="19.0" text="First name" />
+                        <Label layoutX="10.0" layoutY="19.0" text="City" GridPane.rowIndex="3" />
+                        <Label layoutX="10.0" layoutY="54.0" text="Street" GridPane.rowIndex="2" />
+                        <Label fx:id="streetLabel" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="lastNameLabel" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="firstNameLabel" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" />
+                        <Label layoutX="10.0" layoutY="54.0" text="Last name" GridPane.rowIndex="1" />
+                        <Label fx:id="birthdayLabel" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label layoutX="10.0" layoutY="19.0" text="Birthday" GridPane.rowIndex="5" />
+                        <Label fx:id="postalCodeLabel" layoutX="10.0" layoutY="19.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label layoutX="10.0" layoutY="19.0" text="Postal Code" GridPane.rowIndex="4" />
                      </children>
                   </GridPane>
                   <Pane layoutX="78.0" layoutY="278.0">
