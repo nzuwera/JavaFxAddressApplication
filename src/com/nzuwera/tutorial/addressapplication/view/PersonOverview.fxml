@@ -60,7 +60,7 @@
                      <children>
                         <ToggleButton mnemonicParsing="false" text="New..." />
                         <ToggleButton layoutX="87.0" mnemonicParsing="false" text="Edit..." />
-                        <ToggleButton layoutX="167.0" mnemonicParsing="false" text="Delete" />
+                        <ToggleButton layoutX="167.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                      </children>
                   </Pane>
                </children></AnchorPane>
